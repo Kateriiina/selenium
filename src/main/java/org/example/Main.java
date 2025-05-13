@@ -22,7 +22,7 @@ public class Main {
         JavascriptExecutor js = (JavascriptExecutor) driver;
 
         // Basic Auth + Перехід на сторінку "Вино"
-        driver.get("https://dev:dev123@gwn-hyva-dev.perspective.net.ua/ua/napoi/vino/");
+        driver.get("/napoi/vino/");
 
         // Чекаємо, поки сторінка повністю завантажиться
         Thread.sleep(2000);
